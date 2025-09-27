@@ -1,0 +1,7 @@
+problem,remediation
+database connection error,Restart DB service and verify credentials/network. Check pg_hba.conf and firewall.
+high cpu usage,Identify top processes; restart offending service; scale CPU allocation.
+service timeout,Check downstream service health; increase client/server timeouts; add retries.
+authentication timeout,Verify IdP health; increase auth timeout; warm caches; check rate limits.
+disk full,Free space; rotate logs; increase volume; add alerts for 80%+ usage.
+
